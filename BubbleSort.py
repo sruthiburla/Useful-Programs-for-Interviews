@@ -1,4 +1,4 @@
-l=list(map(int,input("bubble sort").split()))
+l=list(map(int,input("Enter the elements").split()))
 n=len(l)
 for i in range(n-1):
     for j in range(n-i-1):
